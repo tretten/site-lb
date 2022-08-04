@@ -79,10 +79,5 @@ function copyToClipboard(text) {
     },
         t = {
         };
-    e.addButton({
-        tag: "BUTTON",
-        class: "contrast switcher theme-switcher",
-        target: "body",
-    }),
-        e.init();
+    e.init();
 })();
