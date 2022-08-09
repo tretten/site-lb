@@ -6,10 +6,6 @@ function closeOverlay(text) {
     document.execCommand('copy');
     inputc.parentNode.removeChild(inputc);
 }
-
-window.addEventListener('load', function () {
-    $('body').style.opacity = '1';
-  })
 ;
 "use strict";
 !(function () {
